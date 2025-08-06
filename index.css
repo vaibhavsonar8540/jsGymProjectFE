@@ -1,0 +1,882 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.header
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* General Reset */
+ul {
+    list-style: none; /* Remove default list styling */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top-level menu styles */
+.d-flex {
+    display: flex;
+    gap: 20px; /* Space between main items */
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.d-flex > li {
+    position: relative; /* Needed for positioning the sub-menu */
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.d-flex > li:hover {
+    color: #0078d4;
+}
+
+/* Sub-menu styles */
+.sub-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Appears below the parent <li> */
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.sub-menu li {
+    position: relative; /* Needed for positioning sub-menu2 */
+    padding: 10px;
+    color: black;
+    background-color: white;
+    transition: background 0.3s ease;
+    font-size: 14px;
+}
+
+.sub-menu li:hover {
+    color: #4b2942;
+}
+
+/* Sub-menu2 styles */
+.sub-menu2 {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 0; /* Aligns the sub-menu2 at the same height as parent <li> */
+    left: 100%; /* Appears to the right of the parent menu */
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 11; /* Ensure it appears above the first sub-menu */
+}
+
+.sub-menu2 li {
+    padding: 10px;
+    color: black;
+    transition: background 0.3s ease;
+}
+
+.sub-menu2 li:hover {
+    background-color: white;
+    color: #4b2942;
+    margin-left: 5px;
+}
+
+/* Show sub-menu on hover */
+.d-flex > li:hover .sub-menu {
+    display: block;
+}
+
+/* Show sub-menu2 on hover */
+.sub-menu li:hover .sub-menu2 {
+    display: block;
+}
+
+
+.Image img
+{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+.search-i
+{
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    position: relative;
+    bottom: 8px;
+}
+.cart-i
+{
+    color:white;
+    margin-right: 50px;
+    font-size: 14px;
+    position: relative;
+    bottom: 8px;
+}
+.form
+{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 8px;
+}
+
+.equipment
+{
+    height: 850px;
+    background-color: white;
+    margin-top: 50px;
+}
+.eq-1
+{
+    height: 750px;
+    width: 50%;
+}
+.eq-2
+{
+    height: 750px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quip-1
+{
+    width: 50%;
+    padding: 15px;
+    padding-top: 0px;
+    height: 363px;
+}
+.quip-2
+{
+    width: 50%;
+    padding: 15px;
+    padding-top: 0px;
+    height: 363px;
+}
+.quip-3
+{
+    width: 50%;
+    padding: 15px;
+    height: 363px;
+}
+.quip-4
+{
+    width: 50%;
+    padding: 15px;
+    height: 363px;
+}
+.s-p
+{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.sub-equ
+{
+    width: 90%;
+    margin: auto;
+}
+
+.cardio-img {
+    height: 750px;
+    width: 100%; /* Ensure the container takes full width */
+    text-decoration: none;
+    overflow: hidden; /* Prevent image from overflowing */
+    position: relative;
+    display: block; /* Ensure block-level container */
+    border: 1px solid black;
+}
+
+.cardio-img img {
+    height: 100%;
+    width: 100%; /* Cover the full container width */
+    object-fit: cover; /* Ensure the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+.cardio-img:hover img {
+    transform: scale(1.2); /* Zoom in effect */
+}
+
+.gym-img
+{
+    height: 363px;
+    overflow: hidden; /* Prevent image from overflowing */
+    position: relative;
+    display: block; /* Ensure block-level container */
+    border: 1px solid black;
+}
+.gym-img img
+{
+    height: 100%;
+    width: 100%;  
+    object-fit: cover; /* Ensure the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */  
+}
+.gym-img:hover img {
+    transform: scale(1.2); /* Zoom in effect */
+}
+
+.bic-img
+{
+    height: 363px;
+    overflow: hidden; /* Prevent image from overflowing */
+    position: relative;
+    display: block; /* Ensure block-level container */
+    border: 1px solid black;
+}
+.bic-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+.bic-img:hover img {
+    transform: scale(1.2); /* Zoom in effect */
+}
+
+.plate-img
+{
+    height: 363px;
+    overflow: hidden; /* Prevent image from overflowing */
+    position: relative;
+    display: block; /* Ensure block-level container */
+    border: 1px solid black;
+}
+.plate-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+.plate-img:hover img {
+    transform: scale(1.2); /* Zoom in effect */
+}
+
+.wieg-img
+{
+    height: 363px;
+    overflow: hidden; /* Prevent image from overflowing */
+    position: relative;
+    display: block; /* Ensure block-level container */
+    border: 1px solid black;
+}
+.wieg-img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure the image fits properly */
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+.wieg-img:hover img {
+    transform: scale(1.2); /* Zoom in effect */
+}
+
+.cariod-p
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 250px;
+    width: 200px;
+    padding: 5px 18px;
+    background-color: black;
+}
+.eq-1:hover .cariod-p
+{
+    background-color: #462445;
+    color: white;
+    font-weight: bold;
+}
+
+.quip-1:hover .gym-p
+{
+    background-color: #462445;
+    color: white;
+    font-weight: bold;
+}
+.gym-p
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    width: 200px;
+    padding: 5px 15px;
+    background-color: black;
+}
+
+.quip-2:hover .bic-p
+{
+    background-color: #462445;
+    color: white;
+    font-weight: bold;
+}
+.bic-p
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    width: 200px;
+    padding: 5px 15px;
+    background-color: black;
+}
+
+.quip-3:hover .plate-p
+{
+    background-color: #462445;
+    color: white;
+    font-weight: bold;
+}
+.plate-p
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    width: 200px;
+    padding: 5px 15px;
+    background-color: black;
+}
+
+.quip-4:hover .wig-p
+{
+    background-color: #462445;
+    color: white;
+    font-weight: bold;
+}
+.wig-p
+{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 50px;
+    width: 200px;
+    padding: 5px 15px;
+    background-color: black;
+}
+
+.Byc-div
+{
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    height: 250px;
+}
+.Byc-div p
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.Byc-div p a
+{
+    text-decoration: none;
+    color: white;
+}
+.new-pro
+{
+    width: 100%;
+    background-color: white;
+    height: 500px;
+}
+.new-pro p
+{
+    text-align: center;
+}
+.haps::before
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 30%;
+    position: relative;
+    top: 20px;
+    left: 12%;
+}
+.haps::after
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 30%;
+    position: relative;
+    top: -20px;
+    left: 58%;
+}
+
+.haps2::before
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 23%;
+    position: relative;
+    top: 20px;
+    left: 12%;
+}
+.haps2::after
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 25%;
+    position: relative;
+    top: -20px;
+    left: 65%;
+}
+
+.haps3::before
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 30%;
+    position: relative;
+    top: 20px;
+    left: 12%;
+}
+.haps3::after
+{
+    content: '';
+    display: block;
+    border: 1px solid gray;
+    width: 30%;
+    position: relative;
+    top: -16px;
+    left: 58%;
+}
+
+.sub-New
+{
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+}
+.new-1
+{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+}
+.new-2
+{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+}
+
+.new-3
+{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+}
+
+.new-4
+{
+    background-color: green;
+    width: 25%;
+    height: 300px;
+}
+
+.new-1 img
+{
+    height: 250px;
+    width: 100%;
+}
+
+/* product data */
+.new-pro
+{
+    height: 600px;
+    background-color: white;
+
+}
+#main-products
+{
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+.card
+{
+    width: 340px;
+    height: 400px;
+    margin-top: 10px;
+}
+.card-img
+{
+    width: 100%;
+    height: 200px;
+}
+.card-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.card-body
+{
+    height: 150px;
+    color: black;
+    border-bottom: 0px;
+    text-decoration: none;
+}
+
+.new-pro2
+{
+    height: 550px;
+    background-color: white;
+
+}
+#main-products2
+{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 450px;
+}
+
+.fit-data
+{
+    height: 1300px;
+    background-color: whitesmoke;
+}
+.first-fit
+{
+    display: flex;
+    height: 530px;
+    position: relative;
+    top: 100px;
+    width: 95%;
+    margin: auto;
+}
+.fit-img
+{
+    width: 30%;
+    height: 450px;
+}
+.fit-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.fit-des
+{
+    width: 70%;
+    padding: 0px 10px 0px 30px;
+}
+
+.sec-fit
+{
+    display: flex;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    width: 95%;
+    margin: auto;
+}
+.sec-des
+{
+    width: 70%;
+    padding-right: 30px;
+}
+.sec-img
+{
+    width: 30%;
+    height: 450px;
+}
+.sec-img img
+{
+    width: 100%;
+    height: 100%;
+}
+.sec-last
+{
+    height: 60px;
+    width: 250px;
+    position: relative;
+    top: 130px;
+    left: 15%;
+}
+.sec-last img
+{
+    width: 100%;
+    height: 100%;
+}
+.review
+{
+    height: 950px;
+    width: 100%;
+}
+.sub-rev
+{
+   height: 950px;
+   width: 65%;
+   margin: auto;
+}
+
+.info
+{
+    background-color: #462445;
+    height: 400px;
+    width: 100%;
+    
+}
+.sub-info
+{
+    width: 40%;
+    height: 180px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+}
+
+/* General styles for links */
+.hover-link {
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative; 
+    padding-bottom: 2px; 
+}
+
+/* Text color change on hover */
+.hover-link:hover {
+    color: white;
+}
+
+/* Line effect using ::after pseudo-element */
+.hover-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: white; 
+    transition: width 0.3s ease;
+}
+
+/* Line expands fully on hover */
+.hover-link:hover::after {
+    width: 100%; 
+}
+
+.input-container 
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.email-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .email-input::placeholder {
+    color: #e6e6e6;
+  }
+  
+  .underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 1px;
+    background-color: white;
+  }
+  
+  .signup-button {
+    background-color: white;
+    border: none;
+    color: #4b2942;
+    font-weight: bold;
+    padding: 10px 50px;
+    width: 200px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .signup-button:hover {
+    background-color: #f0f0f0;
+  }
+
+
+  /* Off-Canvas Styles */
+.off-canvas {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Initially hidden */
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    
+  }
+  
+  .off-canvas.open {
+    right: 0; /* Slide into view */
+  }
+  
+  /* Close button */
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 34px;
+    cursor: pointer;
+  }
+  
+  /* Form inputs */
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .create
+  {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .create:hover
+  {
+    color: #4b2942;
+  }
+
+  .btn-shop:hover
+  {
+    background-color: white;
+    color: black;
+  }
+
+  .btn-shop
+  {
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+
+ /* .txt-hvr styling */
+/* .txt-hvr {
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 230px;
+    top: 500px;
+    background: rgba(16, 14, 14, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* Show .txt-hvr on hover of .swiper */
+/* .swiper:hover ~ .txt-hvr {
+    opacity: 1;
+    visibility: visible;
+}
+.bg:hover ~ .txt-hvr {
+    opacity: 1;
+    visibility: visible;
+} */ 
+
+/* Swiper styles */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .bg container */
+.bg {
+    height: 630px;
+    width: 100%;
+}

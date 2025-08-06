@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="cardio.css">
+
+    <style>
+        .dis
+        {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #179A94;
+            color: white;
+        }
+        #discount
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .des-main
+        {
+            width: 70%;
+            margin: auto;
+            display: flex;
+        }
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.header
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* General Reset */
+ul {
+    list-style: none; /* Remove default list styling */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top-level menu styles */
+.d-flex {
+    display: flex;
+    gap: 20px; /* Space between main items */
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.d-flex > li {
+    position: relative; /* Needed for positioning the sub-menu */
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.d-flex > li:hover {
+    color: whitesmoke;
+}
+
+/* Sub-menu styles */
+.sub-menu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Appears below the parent <li> */
+    left: 0;
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.sub-menu li {
+    position: relative; /* Needed for positioning sub-menu2 */
+    padding: 10px;
+    color: black;
+    background-color: white;
+    transition: background 0.3s ease;
+    font-size: 14px;
+}
+
+.sub-menu li:hover {
+    color: #4b2942;
+}
+
+/* Sub-menu2 styles */
+.sub-menu2 {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 0; /* Aligns the sub-menu2 at the same height as parent <li> */
+    left: 100%; /* Appears to the right of the parent menu */
+    background-color: white;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 11; /* Ensure it appears above the first sub-menu */
+}
+
+.sub-menu2 li {
+    padding: 10px;
+    color: black;
+    transition: background 0.3s ease;
+}
+
+.sub-menu2 li:hover {
+    background-color: white;
+    color: #4b2942;
+    margin-left: 5px;
+}
+
+/* Show sub-menu on hover */
+.d-flex > li:hover .sub-menu {
+    display: block;
+}
+
+/* Show sub-menu2 on hover */
+.sub-menu li:hover .sub-menu2 {
+    display: block;
+}
+
+
+.Image img
+{
+    width: 150px;
+    height: 80px;
+    margin-left: 50px;
+}
+.search-i
+{
+    color: white;
+    margin-right: 20px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0px;
+}
+.cart-i
+{
+    color:white;
+    margin-right: 50px;
+    font-size: 14px;
+    position: relative;
+    bottom: 0px;
+}
+       .min
+       {
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 30px;
+       } 
+       .plus
+       {
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 30px;
+       }
+       .incr
+       {
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .Add
+       {
+        background-color: black;
+        width: 80px;
+        height: 30px;
+        margin-left: 20px;
+       }
+       .add p
+       {
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+       }
+    </style>
+</head>
+<body>
+
+
+    <div class="header bg-dark d-flex">
+        <div class="Image">
+          <a href="index.html"><img src="pro-images/the-fitness-store-logo_346x.avif" alt=""></a>
+        </div>
+        <div>
+          <ul class="d-flex">
+              <li class="text-light">CARDIO
+                  <ul class="sub-menu">
+                      <li>HOME EQUIPMENT BY TYPE
+                        <ul class="sub-menu2">
+                          <li>ELLIPTICAL MACHINES</li>
+                          <li>INVERSION</li>
+                          <li>UPRIGHT BIKES</li>
+                          <li>RECUMBENT BIKES</li>
+                          <li>ROWING MACHINES</li>
+                          <li>RECUMBENT STEPPERS</li>
+                          <li>TRADEMILLS</li>
+                          <li>CYCLE TRAINERS</li>
+                      </ul>
+                      </li>
+                      <li>HOME EQUIPMENT BY BRAND
+                        <ul class="sub-menu2">
+                          <li>BODYCRAFT</li>
+                          <li>ECHELON FITNESS</li>
+                          <li>ENDURANCE</li>
+                          <li>LANDICE</li>
+                          <li>LIFE FITNESS</li>
+                          <li>NAUTILUS</li>
+                          <li>SARIS</li>
+                          <li>SCHWINN</li>
+                          <li>SPIRIT</li>
+                          <li>STARTRAC</li>
+                          <li>TEETER</li>
+                          <li>WATERPOWER</li>
+                      </ul>
+                      </li>
+                      <li>COMMERCIAL EQUIPMENT BY TYPE
+                        <ul class="sub-menu2">
+                          <li>ROWERS</li>
+                          <li>ELLIPTICAL MACHINES</li>
+                          <li>UPRIGHT BIKES</li>
+                          <li>RECUMBENT BIKES</li>
+                          <li>RECUMBENT STEPPERS</li>
+                          <li>STEPPERS</li>
+                          <li>TRADEMILLS</li>
+                      </ul>
+                      </li>
+                      <li>COMMERCIAL EQUIPMENT BY BRAND
+                        <ul class="sub-menu2">
+                          <li>ASSAULT FITNESS</li>
+                          <li>BODYCRAFT</li>
+                          <li>ECHELEON FITNESS</li>
+                          <li>ENDURANCE</li>
+                          <li>LANDICE FITNESS</li>
+                          <li>SHCHWEEN FITNESS</li>
+                          <li>SPIRIT FITNESS</li>
+                          <li>STARTRAC FITNESS</li>
+                          <li>WATER POWER</li>
+                      </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li class="text-light">GYM SYSTEM
+                  <ul class="sub-menu">
+                      <li>BODY SOLID
+                        <ul class="sub-menu2">
+                          <li>BENCHES</li>
+                          <li>SINGLE STATION MACHINE</li>
+                          <li>DUAL STATION MACHINE</li>
+                          <li>MULTI STATION GYMS</li>
+                      </ul>
+                      </li>
+                      <li>INFLIGHT FITNESS</li>
+                      <li>PARADIGM FITNESS</li>
+                      <li>BODYCRAFT</li>
+                  </ul>
+              </li>
+              <li class="text-light">PLATE LOADED
+                  <ul class="sub-menu">
+                      <li>BODY SOLID</li>
+                      <li>PARADIGM FITNESS</li>
+                    </ul>
+              </li>
+              <li class="text-light">FREE WEIGHTS
+                  <ul class="sub-menu">
+                      <li>DUMBBELL</li>
+                      <li>OLYMPIC PLATES AND SETS</li>
+                      <li>KITTELBELLS</li>
+                      <li>BARS AND COLLARES</li>
+                      <li>SELECTORIZED DUMBBELLS</li>
+                      <li>BENCHES</li>
+                      <li>STORAGE</li>
+                  </ul>
+              </li>
+              <li class="text-light">ACCESSORIES
+                  <ul class="sub-menu">
+                      <li>ACCESSORIES BY TYPE
+                        <ul class="sub-menu2">
+                          <li>LIFTING GLOVES</li>
+                          <li>LIFTING BELTS</li>
+                          <li>LIFTING STRAPS</li>
+                          <li>SPORTS MEDICAL</li>
+                          <li>JUMP ROPES</li>
+                          <li>BALLS-BOSU,EXERCISE,SLAM,WALL,MEDICINE</li>
+                          <li>FOAM ROLLARS</li>
+                          <li>FITNESS MATS</li>
+                          <li>FITNESS CLEANING SUPPLIES</li>
+                          <li>CABLE ATTACHMENTS</li>
+                          <li>FITNESS CLOATHING</li>
+                      </ul>
+                      </li>
+                      <li>ACCESSORIES BY BRAND
+                        <ul class="sub-menu2">
+                          <li>VALEO PRODUCTS</li>
+                          <li>GRIZZLY FITNESS PRODUCTS</li>
+                          <li>WECKMETHOD AND BOSU BALANCE TRAINERS</li>
+                          <li>SPRI PRODUCTS</li>
+                          <li>SCHIEK PRODUCTS</li>
+                          <li>HARBINGER FITNESS</li>
+                      </ul>
+                      </li>
+                      <li>FITNESS POSTERS / BOOKS
+                        <ul class="sub-menu2">
+                          <li>BRUCE ALGRA</li>
+                          <li>FIGHTHROUGH FITNESS</li>
+                          <li>PRODUCTIVE FITNESS PRODUCTS</li>
+                      </ul>
+                      </li>
+                      <li>MISCELLENEOUS ACCESSORIES</li>
+                  </ul>
+              </li>
+              <li class="text-light">BICYCLES
+                  <ul class="sub-menu">
+                      <li>SERIAL 1 E-BIKES BY HARLEY DAVIDSON</li>
+                      <li>FUELL FLLUID E-BIKES</li>
+                      <li>BICYCLE LINES CARRIED</li>
+                      <li>CLASSIC HIGH WHEELERS</li>
+                  </ul>
+              </li>
+              <li class="text-light">SERVICE PARTS</li>
+          </ul>
+        </div>
+  
+        <div class="d-flex">
+          <span>
+            <i class="bi bi-search search-i" style="color: white;"></i>
+          </span>
+          <span>
+            <i class="bi bi-cart cart-i">$ 0.00</i>
+          </span>
+        </div>
+    </div>
+
+      <!-- description data -->
+
+      <div class="des-main" style="margin-top: 50px;">
+        <div class="des-img" style="width: 40%;height: 300px;border: 1px solid black;">
+            <img src="" id="image" style="height: 100%;width: 100%;">
+        </div>
+        <div class="des-data" style="width: 60%;padding-left: 50px;">
+            <h1 id="name"></h1>
+            <div class="des-price" style="display: flex;margin-top: 30px;">
+                <h4 id="sale_price" style="text-decoration: line-through;color: gray;"></h3>
+                <h2 id="original_price" style="color: blueviolet;padding-left: 15px;position: relative;top: -6px;"></h3>
+            </div>
+            <div class="dis" style="margin-top: 30px;">
+                <h4 id="discount" style="font-size: 10px;display: flex;justify-content: center;padding-left: 5px;"> </h4>
+            </div>
+
+            <div style="display: flex; margin-top: 30px;">
+                <div class="min">
+                    <span style="font-weight: bold;" id="Min">-</span>
+                </div>
+                <div class="incr"><span id="quan">1</span></div>
+                <div class="plus">
+                    <span style="font-weight: bold;" id="Plus">+</span>
+                </div>
+
+                <div class="Add">
+                    <a href="cart.html" style="text-decoration: none;"><p style="color: white; font-size: 12px;" class="add">Add To Cart</p></a>
+                </div>
+            </div>
+
+            <hr style="width: 100%;margin: auto;color: gray;margin-top: 30px;">
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div style="background-color: black; color: gray; padding: 20px; font-family: Arial, sans-serif; height: 460px;margin-top: 50px;" class="footer">
+
+        <div class="w-100 d-flex justify-content-center pt-4" style="background-color: black;">
+          <img src="pro-images/the-fitness-store-logo_346x.avif" alt="" style="height: 80px;width: 200px;margin: auto;">
+        </div>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;padding-top: 20px;">
+          <!-- Our Location -->
+          <div>
+            <h6 style="color: white;font-size: 15px;">OUR LOCATION</h6>
+            <hr style="color: white; width: 40px;">
+            <p style="font-size: 14px;padding-top: 10px;color: white;">The Fitness Store</p>
+            <p style="font-size: 14px;padding-top: 3px;">1410 Dewey St.</p>
+            <p style="font-size: 14px;padding-top: 3px;">Manitowoc, WI 54220</p>
+            <p style="font-size: 14px;padding-top: 3px;">Phone: 920-684-8088</p>
+            <p style="font-size: 14px;padding-top: 3px;">(Email recommended)</p>
+          </div>
+          
+          <!-- Information -->
+          <div>
+            <h6 style="color: white;font-size: 15px;">INFORMATION</h6>
+            <hr style="color: white; width: 50px;">
+            <ul style="list-style: none; padding: 0;padding-top: 10px;">
+              <li><a href="#" class="hover-link">Bicycles</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link" >Blog</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Virtual Store Tour</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Manitowoc, WI Video</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">About Us</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Customer Service</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Sitemap</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Orders and Returns</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Contact Us</a></li>
+            </ul>
+          </div>
+          
+          
+          <!-- Why Buy From Us -->
+          <div>
+            <h6 style="color: white;font-size: 15px;">WHY BUY FROM US</h6>
+            <hr style="color: white; width: 60px;">
+            <ul style="list-style: none; padding: 0;padding-top: 10px;">
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Shipping & Returns</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Secure Shopping</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">International Shipping</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Affiliates</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Group Sales</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Terms of Service</a></li>
+            </ul>
+          </div>
+          
+          <!-- My Account -->
+          <div>
+            <h6 style="color: white;font-size: 15px;">MY ACCOUNT</h6>
+            <hr style="color: white; width: 60px;">
+            <ul style="list-style: none; padding: 0;padding-top: 10px;">
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Login / Register</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">View Cart</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Track My Order</a></li>
+              <li style="padding-top: 5px;"><a href="#" class="hover-link">Help</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr style="color: gray;width: 100%;position: relative;top: 20px;">
+        <div style="text-align: center; margin-top: 40px; font-size: 14px;">
+          <p>Copyright © 2023 The Fitness Store. All Rights Reserved. Shopify Developers at WebCitz.</p>
+        </div>
+      </div>
+
+
+
+      <script>
+        // Retrieve parameters from the URL
+        const param = new URLSearchParams(window.location.search);
+      
+        // Extract values
+        let image = param.get("image");
+        let name = param.get("name");
+        let sale_price = parseFloat(param.get("sale_price").replace('$', '')) || 0; // Convert to number
+        let original_price = parseFloat(param.get("original_price").replace('$', '')) || 0; // Convert to number
+        let discount = param.get("discount");
+      
+        // Assign values to HTML elements
+        document.getElementById("image").src = image; // Set image src
+        document.getElementById("name").innerText = name; // Set product name
+        document.getElementById("sale_price").innerText = `$${sale_price.toFixed(2)}`; // Set sale price
+        document.getElementById("original_price").innerText = `$${original_price.toFixed(2)}`; // Set original price
+        document.getElementById("discount").innerText = `Discount: ${discount}`; // Set discount
+      
+        // Quantity increment and decrement
+        let inc = document.getElementById('Plus');
+        let mins = document.getElementById('Min');
+        let num = document.getElementById('quan');
+        let cnt = 1; // Initial quantity
+      
+        // Update price display based on quantity
+        function updatePrices() {
+            document.getElementById("sale_price").innerText = `$${(sale_price * cnt).toFixed(2)}`;
+            document.getElementById("original_price").innerText = `$${(original_price * cnt).toFixed(2)}`;
+        }
+      
+        inc.addEventListener('click', () => {
+            cnt++;
+            num.innerText = cnt;
+            updatePrices();
+        });
+
+        mins.addEventListener('click', () => {
+            if (cnt > 1) {
+                cnt--;
+                num.innerText = cnt;
+                updatePrices();
+            }
+        });
+
+        // Add to Cart button functionality
+        const addToCartButton = document.querySelector('.Add a');
+        addToCartButton.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevent default link behavior
+            const cartUrl = `cart.html?name=${encodeURIComponent(name)}&sale_price=${encodeURIComponent((sale_price * cnt).toFixed(2))}&quantity=${cnt}`;
+            window.location.href = cartUrl; // Redirect with parameters
+        });
+      </script>
+      
+    
+
+    
+</body>
+</html>

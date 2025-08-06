@@ -1,0 +1,821 @@
+{
+  "products": [
+    {
+      "name": "Echelon EX8s Upright Bike with 24\" Monitor",
+      "original_price": "$3,199.00",
+      "sale_price": "$2,299.00",
+      "discount": "-29%",
+      "image": "https://media.istockphoto.com/id/2167374915/photo/strong-woman-in-warm-up-training-running-on-a-treadmill-climber-stairs-machine.webp?a=1&b=1&s=612x612&w=0&k=20&c=6X79ksDcjV08tQlHeScN8nFlkds-3-Dc3L4ing03clg="
+    },
+    {
+      "name": "Spirit XBU55ENT Upright Bike",
+      "original_price": "$3,299.00",
+      "sale_price": "$2,299.00",
+      "discount": "-31%",
+      "image": "https://media.istockphoto.com/id/650364226/photo/fitness-and-gym-equipment.webp?a=1&b=1&s=612x612&w=0&k=20&c=hPMGBLPy4BQf3k1_eg46Vd44Proe9MethW-G5KoYceA="
+    },
+    {
+      "name": "Spirit XE395ENT Elliptical",
+      "original_price": "$3,999.99",
+      "sale_price": "$2,999.99",
+      "discount": "-26%",
+      "image": "https://media.istockphoto.com/id/805085582/photo/spin-together-to-win-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=yQnBkfjcpPxNRryYEz-Ogi3X-KktmKcD2_p-WIu_wjo="
+    },
+    {
+      "name": "SPRI Balance Trainer Sport",
+      "original_price": "$119.95",
+      "sale_price": "$99.95",
+      "discount": "-17%",
+      "image": "https://media.istockphoto.com/id/1124741961/photo/woman-in-fitness-club.jpg?s=612x612&w=0&k=20&c=q3MggEF6VrhNICqa6RRfLWyC3ouPXJBD6i-ytb2zdek="
+    },
+    {
+      "name": "SPRI Balance Trainer Pro",
+      "original_price": "$139.95",
+      "sale_price": "$119.95",
+      "discount":"-15%",
+      "image": "https://plus.unsplash.com/premium_photo-1661402417496-b0dd5fab43b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGN5Y2xlJTIwY2FyZGlvJTIwZ3ltJTIwZXF1aXBtZW50fGVufDB8fDB8fHww"
+    }
+  ] ,
+
+  "products2": [
+    {
+      "name": "Lebert Equalizer Total Body Strengthener",
+      "original_price": "$119.95",
+      "sale_price": "$99.95",
+      "discount": "-17%",
+      "image": "https://plus.unsplash.com/premium_photo-1726328925629-0511220f27f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TGViZXJ0JTIwRXF1YWxpemVyJTIwVG90YWwlMjBCb2R5JTIwU3RyZW5ndGhlbmVyfGVufDB8fDB8fHww"
+    },
+    {
+      "name": "Spirit XBU55 Upright Exercise Bike",
+      "original_price": "$1,699.99",
+      "sale_price": "$1,599.00",
+      "discount": "-6%",
+      "image": "https://media.istockphoto.com/id/1303286940/photo/beautiful-sporty-woman-cycling-a-bike-at-home-cardio-training-exercising-legs-cardio-workout.webp?a=1&b=1&s=612x612&w=0&k=20&c=SggHX9Qh1s8pO0kGbm-D6Gmh7XFzYYTgyMHjClT3xlk="
+    },
+    {
+      "name": "Spirit XBR55 Recumbent Exercise Bike",
+      "original_price": "$1,899.00",
+      "sale_price": "$1,699.00",
+      "discount": "-6%",
+      "image": "https://media.istockphoto.com/id/988115386/photo/exercising-bike-for-exercise-in-gym-or-fitness-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=faUhyT1A0Cpnij3nkWAs5P6AL9trosj6t285QI95ilI="
+    },
+    {
+      "name": "Paradigm Fitness PRO F.I.D. Bench",
+      "original_price": "$579.00",
+      "sale_price": "$499.00",
+      "discount": "-14%",
+      "image": "https://media.istockphoto.com/id/518845170/photo/personal-sport-stuff-set-in-fitness-gym.jpg?s=612x612&w=0&k=20&c=jUul-VQLq4FVZtSHvqczFQ4IoyWg1-99CgHmVAo3Lk0="
+    },
+    {
+     
+      "name": "Body Solid Kg Premium Powder Coated Kettlebells.",
+      "original_price": "$180.00",
+      "sale_price": "$162.00",
+      "discount": "-10%",
+      "image": "https://media.istockphoto.com/id/961254774/photo/getting-fit-one-lift-at-a-time.webp?a=1&b=1&s=612x612&w=0&k=20&c=gUC6q1b8ZgLKxoYJVkxKfcmjCC1HVGksSRMHqy0iIE0="
+    }
+  ],
+
+  "cardio" : [
+      {
+
+          "discount": "-17%",
+          "name": "Schwinn IC4 Indoor Cycling Bike",
+          "original_price": "$1,199.00",
+          "sale_price": "$999.00",
+          "image":"https://plus.unsplash.com/premium_photo-1671148898450-a26cd131fd72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3ljbGluZyUyMGJpa2UlMjBneW18ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-13%",
+          "name": "Schwinn IC3 Indoor Cycling Bike",
+          "original_price": "$799.95",
+          "sale_price": "$699.95",
+          "image":"https://plus.unsplash.com/premium_photo-1661591254144-abd6ab311e1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGN5Y2xpbmclMjBiaWtlJTIwZ3ltfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-7%",
+          "name": "Nautilus E616 Elliptical Trainer",
+          "original_price": "$1,499.00",
+          "sale_price": "$1,399.95",
+          "image":"https://plus.unsplash.com/premium_photo-1664297698526-0f131fcefb6b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FyZGlvJTIwY3ljbGUlMjBneW18ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-12%",
+          "name": "SPRI FOLDING EXERCISE BI-FOLD MAT",
+          "original_price": " $89.95",
+          "sale_price": "$79.95",
+          "image":"https://plus.unsplash.com/premium_photo-1664536968460-738ba488545e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3ltJTIwbWF0fGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-25%",
+          "name": "Body-Solid Hanging Exercise Mat",
+          "original_price": "$53.00",
+          "sale_price": "$39.95",
+          "image":"https://plus.unsplash.com/premium_photo-1663089549310-13dc49c3e492?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGd5bSUyMG1hdHxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-6%",
+          "name": "Assault Fitness Air Bike Classic",
+          "original_price": "$999.00",
+          "sale_price": "$859.00",
+          "image":"https://images.unsplash.com/photo-1652363723082-b1fdca4bdbd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltJTIwY3ljbGV8ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-8%",
+          "name": "The WaterRower Natural in Ash",
+          "original_price": "$1,395.00",
+          "sale_price": "$1,289.00",
+          "image":"https://images.unsplash.com/photo-1637714890222-435eefed5f2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltJTIwY3ljbGV8ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-19%",
+          "name": "Teeter FreeStep LT3 Recumbent Cross Trainer",
+          "original_price": "$999.00",
+          "sale_price": "$899.00",
+          "image":"https://plus.unsplash.com/premium_photo-1661908739184-46083f21fd34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGd5bSUyMGN5Y2xlfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-15%",
+          "name": "Spirit Fitness CT800ENT Commercial Treadmill",
+          "original_price": "$6,999.00",
+          "sale_price": "$5,999.00",
+          "image":"https://images.unsplash.com/photo-1626252346582-c7721d805e0d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bSUyMGNhcmRpb3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-21%",
+          "name": "Body Solid Speed Rope",
+          "original_price": "$9.99",
+          "sale_price": "$7.95",
+          "image":"https://images.unsplash.com/photo-1520334298038-4182dac472e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BlZWQlMjByb3BlfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-14%",
+          "name": "BodyCraft VR400 Pro Folding Air/Magnetic Rower",
+          "original_price": "$1,499.00",
+          "sale_price": "$1,299.00",
+          "image":"https://plus.unsplash.com/premium_photo-1664304112354-aef5059bae8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm93ZXIlMjBtQ0hJTkUlMjBHWU18ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-8%",
+          "name": "Schwinn AD7 Air Dyne Air Bike",
+          "original_price": "$1,299.95",
+          "sale_price": "$1,199.95",
+          "image":"https://plus.unsplash.com/premium_photo-1671148898450-a26cd131fd72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJvd2VyJTIwbUNISU5FJTIwR1lNfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-6%",
+          "name": "Spirit XE195 Elliptical Machine",
+          "original_price": " $1,699.00",
+          "sale_price": " $1,599.00",
+          "image":"https://plus.unsplash.com/premium_photo-1661402417496-b0dd5fab43b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8RUxMSVBUSUNBTCUyME1BQ0hJTkUlMjBHWU0lMjBDWUNMRXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-9%",
+          "name": "Spirit XBR95 Recumbent Exercise Bike",
+          "original_price": "$2,399.00",
+          "sale_price": "$2,199.00",
+          "image":"https://images.unsplash.com/photo-1591741535018-d042766c62eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z3ltJTIwZXhlcmNpc2UlMjBiaWtlfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-15%",
+          "name": "Schwinn 230 Recumbent Exercise Bike",
+          "original_price": " $699.95",
+          "sale_price": " $599.95",
+          "image":"https://images.unsplash.com/photo-1554470166-20d3f466089b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGd5bSUyMGV4ZXJjaXNlJTIwYmlrZXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-5%",
+          "name": "WaterRower Stainless Steel Designer Rower",
+          "original_price": "$3,295.00",
+          "sale_price": "$3,139.00",
+          "image":"https://plus.unsplash.com/premium_photo-1664299685813-eafae169c04a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm93ZXIlMjBtYWNoaW5lJTIwZ3ltfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-24%",
+          "name": "Spirit XRW600 Rower",
+          "original_price": "$1,299.00",
+          "sale_price": "$999.00",
+          "image":"https://plus.unsplash.com/premium_photo-1661900564310-3ab1b0d66853?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm93ZXIlMjBtYWNoaW5lJTIwZ3ltJTIwd29tZW58ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-26%",
+          "name": "Spirit XE395ENT Elliptical",
+          "original_price": "$3,999.99",
+          "sale_price": "$2,999.99",
+          "image":"https://plus.unsplash.com/premium_photo-1661767195799-fa3b3fb9b4f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJvd2VyJTIwbWFjaGluZSUyMGd5bSUyMHdvbWVufGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-31%",
+          "name": "Spirit XBU55ENT Upright Bike",
+          "original_price": "$3,299.00",
+          "sale_price": "$2,299.00",
+          "image":"https://plus.unsplash.com/premium_photo-1726481790286-1ed9b94ff2d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHRyYWRlJTIwbWlsbCUyMGd5bSUyMGV4ZXJjaXNlJTIwbWFjaGluZXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-21%",
+          "name": "Echelon Reflect Touch Fitness Mirror",
+          "original_price": "$1,499.00",
+          "sale_price": "$1,199.00",
+          "image":"https://plus.unsplash.com/premium_photo-1664304112354-aef5059bae8a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmljeWNsZSUyMGd5bSUyMGV4ZXJjaXNlJTIwbWFjaGluZXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-29%",
+          "name": "Echelon EX8s Upright Bike with 24' Monitor",
+          "original_price": "$3,199.00",
+          "sale_price": "$2,299.00",
+          "image":"https://images.unsplash.com/photo-1689876593463-6678f2e8d4f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmljeWNsZSUyMGd5bSUyMGV4ZXJjaXNlJTIwbWFjaGluZXxlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+          "discount": "-24%",
+          "name": "Echelon EX-PRO Commercial Upright Bike with 24\" Monitor",
+          "original_price": "$4,199.00",
+          "sale_price": "$3,199.00",
+          "image":"https://plus.unsplash.com/premium_photo-1670002499256-0d4273490c5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmljeWNsZSUyMGd5bSUyMGV4ZXJjaXNlJTIwbWFjaGluZSUyMG1vbml0b3IlMjBiaWtlfGVufDB8fDB8fHww"
+      },
+      {
+          "discount": "-22%",
+          "name": "Echelon Row 7s Commercial Rowing Machine",
+          "original_price": "$2,799.00",
+          "sale_price": "$2,199.00",
+          "image":"https://plus.unsplash.com/premium_photo-1664299685813-eafae169c04a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q29tbWVyY2lhbCUyMFJvd2luZyUyME1hY2hpbmUlMjBneW0lMjBvbGQlMjBtYW58ZW58MHx8MHx8fDA%3D"
+      },
+      {
+          "discount": "-24%",
+          "name": "ECHELON STRIDE-7s COMMERCIAL SMART TREADMILL",
+          "original_price": "$6,499.00",
+          "sale_price": "$4,999.00",
+          "image":"https://plus.unsplash.com/premium_photo-1663088464132-8aa928379afe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q09NTUVSQ0lBTCUyMFNNQVJUJTIwVFJFQURNSUxMfGVufDB8fDB8fHww"
+      }
+  ] ,
+
+  "gym" :
+  [
+    {
+        "image" :"https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5jbGluZSUyMGJlbmNoJTIwZ3ltfGVufDB8fDB8fHww",
+        "discount": "-32%",
+        "name": "PowerLine by Body Solid Flat / Incline / Decline Folding Bench",
+        "original_price": "$245.00",
+        "sale_price": "$169.00"
+    },
+    {
+        "image":"https://images.unsplash.com/photo-1646656130630-07af3a262a9b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG93ZXIlMjByYWNrJTIwJTIwZ3ltJTIwZXF1aXBtZW50fGVufDB8fDB8fHww",
+        "discount": "-17%",
+        "name": "PowerLine by Body Solid Power Rack",
+        "original_price": "$495.00",
+        "sale_price": "$415.00"
+    },
+    {
+        "image":"https://images.unsplash.com/photo-1535986507533-8408c3c3c89a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2VpZ2h0JTIwZ3ltJTIwZXF1aXBtZW50fGVufDB8fDB8fHww",
+        "discount": "-14%",
+        "name": "Body Solid 2.5 lb Add-on Weight",
+        "original_price": "$14.95",
+        "sale_price": "$12.95"
+    },
+    {
+        "image":"https://plus.unsplash.com/premium_photo-1670505061070-2664ed450cda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFsZiUyMHJhY2slMjBneW0lMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D",
+        "discount": "-21%",
+        "name": "Body-Solid SPR500 Commercial Half Rack",
+        "original_price": "$750.00",
+        "sale_price": "$595.00"
+    },
+    {
+        "image":"https://images.unsplash.com/photo-1623874514711-0f321325f318?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEJlbmNoJTIwUHJlc3MlMjBneW0lMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D",
+        "discount": "-21%",
+        "name": "Body Solid Leverage Bench Press",
+        "original_price": "$1,195.00",
+        "sale_price": "$945.00"
+    },
+    {
+        "image":"https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEZyZWV3ZWlnaHQlMjBneW0lMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3D",
+        "discount": "-21%",
+        "name": "Body Solid PowerLIFT Freeweight Leverage Gym",
+        "original_price": "$1,995.00",
+        "sale_price": "$1,595.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeWaRt4hx776jAEORtvPfbtN0_k5j-I0FLWQ&s",
+        "discount": "-11%",
+        "name": "InFlight Multi Bicep / Tricep Machine",
+        "original_price": "$3,335.00",
+        "sale_price": "$2,990.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY0IdGHsbdIHqDeXSMnTzEwGFytolaaVTL4A&s",
+        "discount": "-20%",
+        "name": "Body-Solid Pro Select Multi Press Machine",
+        "original_price": "$1,290.00",
+        "sale_price": "$1,190.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMocmCUVZjl5fHzUrKuOaq29ASgyC2nI6yMw&s",
+        "discount": "-21%",
+        "name": "Body Solid Pro ClubLine SFID425 Adjustable Bench by Body-Solid",
+        "original_price": "$625.00",
+        "sale_price": "$495.00"
+    },
+    {
+        "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+        "discount": "-23%",
+        "name": "Body Solid Pro Club Line Series II Functional Trainer",
+        "original_price": "$4,495.00 – $5,095.00",
+        "sale_price": null
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwps_RU4OBdokYu0g26nLUEiPgcU5lz0sdrQ&s",
+        "discount": "-21%",
+        "name": "Body Solid GFID225 Folding Flat-Incline-Decline Bench",
+        "original_price": "$395.00",
+        "sale_price": "$315.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTp3Kgk_k1uerJ-TmDjigKkdOzeJUN4hN9vA&s",
+        "discount": "-22%",
+        "name": "Body Solid Pro Club Line Dual Cable Column Machine",
+        "original_price": " $4,284.00",
+        "sale_price": "$3940.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRUptqS_QlQTjGb0cigwUV4yC0sCZG2knjYg&s",
+        "discount": "-14%",
+        "name": "Spirit Fitness CSS-TROT Commercial Torso Rotation",
+        "original_price": "$3,799.00",
+        "sale_price": "$3,299.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLbYMU_Ty2xdkxbaVPX7mzSNc5wN5-Zf1Vg&s",
+        "discount": "-15%",
+        "name": "Spirit Fitness CSS-TEXT Commercial Triceps Extension",
+        "original_price": "$3,499.00",
+        "sale_price": "$2,999.00"
+    },
+    {
+        "image":"https://image.made-in-china.com/2f0j00uZNWYgcbJGrp/High-Level-Gym-Fitness-Equipment-Commercial-Fitness-Strength-Plate-Loaded-Seated-Row.webp",
+        "discount": "-13%",
+        "name": "Spirit Fitness CSS-SROW Commercial Seated Row",
+        "original_price": "$4,099.00",
+        "sale_price": "$3,599.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThe-QOOZyTbBgnBPbHbFc4xL-PXxAl2Il9uQ&s",
+        "discount": "-12%",
+        "name": "Spirit Fitness CSS-SQSC Commercial Squat / Standing Calf",
+        "original_price": "$4,499.00",
+        "sale_price": "$3,999.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXadCZ2pzMpS-5vZ6WMnbKhCS3rHmpfE3DtA&s",
+        "discount": "-9%",
+        "name": "Spirit Fitness CSS-SLGP Commercial Seated Leg Press",
+        "original_price": "$5,699.00",
+        "sale_price": "$5,199.00"
+    },
+    {
+        "image":"https://www.fitness-world.in/wp-content/uploads/2019/04/Seated-Leg-Curl-1.png",
+        "discount": "-13%",
+        "name": "Spirit Fitness CSS-SLGC Commercial Seated Leg Curl",
+        "original_price": "$3,899.00",
+        "sale_price": "$3,399.00"
+    },
+    {
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG4b162cVhq56Xwpvz5Pz5uvckIXfAp5dHRw&s",
+        "discount": "-14%",
+        "name": "Spirit Fitness CSS-SHPR Commercial Shoulder Press",
+        "original_price": "$3,799.00",
+        "sale_price": "$3,299.00"
+    },
+    {
+        "image":"https://energiefitness.in/cdn/shop/files/BU-001.png?v=1719575502",
+        "discount": "-13%",
+        "name": "Spirit Fitness CSS-SCPR Commercial Seated Chest Press",
+        "original_price": "$3,999.00",
+        "sale_price": "$3,499.00"
+    },
+    {
+        "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+        "discount": "-13%",
+        "name": "Spirit Fitness CSS-SCEX Commercial Standing Calf Extension",
+        "original_price": "$3,899.00",
+        "sale_price": "$3,399.00"
+    },
+    {
+        "image":"https://welcarefitness.com/image/cache/catalog/FM014%20STANDING%20LEG%20CURL-1500x1500.jpg",
+        "discount": "-13%",
+        "name": "Spirit Fitness CSS-PRLC Commercial Prone Leg Curl",
+        "original_price": "$3,899.00",
+        "sale_price": "$3,399.00"
+    },
+    {
+        "image":"https://5.imimg.com/data5/NS/YF/FA/SELLER-30075394/low-row-machine-500x500.jpg",
+        "discount": "-14%",
+        "name": "Spirit Fitness CSS-LROW Commercial Low Row",
+        "original_price": "$3,699.00",
+        "sale_price": "$3,199.00"
+    },
+    {
+        "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+        "discount": "-14%",
+        "name": "Spirit Fitness CSS-LEXT Commercial Leg Extension",
+        "original_price": "$3,799.00",
+        "sale_price": "$3,299.00"
+    }
+],
+
+"bicycle" :
+[
+  {
+      "image":"https://plus.unsplash.com/premium_photo-1678718713393-2b88cde9605b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmljeWNsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Dahon Folding Bicycles",
+      "original_price": 850,
+      "sale_price": 680,
+      "discount": "20%"
+  },
+  {
+      "image":"https://images.unsplash.com/photo-1505705694340-019e1e335916?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmljeWNsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Jamis Bikes",
+      "original_price": 1200,
+      "sale_price": 960,
+      "discount": "20%"
+  },
+  {
+      "image":"https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmljeWNsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Del Sol Bicycles",
+      "original_price": 600,
+      "sale_price": 540,
+      "discount": "10%"
+  },
+  {
+      "image":"https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmljeWNsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "name": "Haro Bikes",
+      "original_price": 700,
+      "sale_price": 595,
+      "discount": "15%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgC8xl9XwD_fGhQUpKkiq7NMQwTihUsb4UoA&s",
+      "name": "Montague Folding Bikes",
+      "original_price": 1500,
+      "sale_price": 1275,
+      "discount": "15%"
+  },
+  {
+      "image":"https://stryderbikes.com/cdn/shop/files/VolticX27BlkRed_1445x.jpg?v=1723894321",
+      "name": "Sun Bicycles",
+      "original_price": 500,
+      "sale_price": 400,
+      "discount": "20%"
+  },
+  {
+      "image":"https://plus.unsplash.com/premium_photo-1661767195799-fa3b3fb9b4f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJvd2VyJTIwbWFjaGluZSUyMGd5bSUyMHdvbWVufGVufDB8fDB8fHww",
+      "name": "Fyxation Bicycles",
+      "original_price": 900,
+      "sale_price": 810,
+      "discount": "10%"
+  },
+  {
+      "image":"https://vescocycles.com/cdn/shop/files/01.jpg?v=1708425722&width=1445",
+      "name": "Linus Bikes",
+      "original_price": 1000,
+      "sale_price": 850,
+      "discount": "15%"
+  }
+],
+
+"plate" :
+[
+  {
+      "image":"https://m.media-amazon.com/images/I/51RCk4AqOpL.jpg",
+      "name": "Body-Solid GLDA3 Heavy Leg Developer Attachment",
+      "original_price": 179.00,
+      "sale_price": 140.00,
+      "discount": "22%"
+  },
+  {
+      "image":"https://m.media-amazon.com/images/I/51ca3WfHI0L._AC_UF894,1000_QL80_.jpg",
+      "name": "Body Solid Leverage Bench Press",
+      "original_price": 1195.00,
+      "sale_price": 945.00,
+      "discount": "21%"
+  },
+  {
+      "image":"https://thefitnessstore.com/cdn/shop/products/SBL460P4-Leverage-Gym-Package_0143@2x.jpg?v=1627044366",
+      "name": "Body Solid PowerLIFT Freeweight Leverage Gym",
+      "original_price": 1995.00,
+      "sale_price": 1595.00,
+      "discount": "21%"
+  },
+  {
+      "image":"https://m.media-amazon.com/images/I/61L89fEAJNL._AC_UF894,1000_QL80_.jpg",
+      "name": "Paradigm Fitness HyperExtension Bench",
+      "original_price": 929.00,
+      "sale_price": 829.00,
+      "discount": "11%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KSqZFqtNBOvwZ27Kn9c6fWhdbX30xCWkhg&s",
+      "name": "Body Solid Pro Lat Machine",
+      "original_price": 695.00,
+      "sale_price": 535.00,
+      "discount": "24%"
+  },
+  {
+      "image":"https://www.afton.in/s/55b31c5573bc5c994472673c/65f56a0a2c0b141a76c27041/ifp1707-8220.png",
+      "name": "Body Solid Leverage Squat / Calf Machine",
+      "original_price": 1195.00,
+      "sale_price": 995.00,
+      "discount": "17%"
+  },
+  {
+      "image":"https://energiefitness.in/cdn/shop/files/LegExtensionLegCurlBMW-1314.png?v=1701244110",
+      "name": "Body Solid 2\" x 3\" Leg Curl / Leg Extension Machine",
+      "original_price": 750.00,
+      "sale_price": 595.00,
+      "discount": "21%"
+  },
+  {
+      "image":"https://m.media-amazon.com/images/I/719eZx6hriL._AC_UF894,1000_QL80_.jpg",
+      "name": "Spirit Fitness Commercial Smith Machine",
+      "original_price": 5199.00,
+      "sale_price": 4399.00,
+      "discount": "16%"
+  },
+  {
+      "image":"https://www.vivafitness.net/wp-content/uploads/e3056-2-1024x1024.jpg",
+      "name": "Spirit Fitness Commercial Plate Loaded Leg Press",
+      "original_price": 3899.00,
+      "sale_price": 3299.00,
+      "discount": "16%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzu0kkmfxdl7mqz5WbKQdmsmgXiHVQSQg7A&s",
+      "name": "Body Solid Full SPR500BACK Full Commercial Extended Half Rack",
+      "original_price": 1563.00,
+      "sale_price": 1202.00,
+      "discount": "24%"
+  },
+  {
+      "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+      "name": "Body Craft F200 200lb Weight Stack Upgrade Kit For F431",
+      "original_price": 650.00,
+      "sale_price": 600.00,
+      "discount": "8%"
+  },
+  {
+      "image":"https://plus.unsplash.com/premium_photo-1661767195799-fa3b3fb9b4f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHJvd2VyJTIwbWFjaGluZSUyMGd5bSUyMHdvbWVufGVufDB8fDB8fHww",
+      "name": "Body Craft F431 Plate Loaded Lat/Low Row Option For F430",
+      "original_price": 550.00,
+      "sale_price": 500.00,
+      "discount": "10%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnf9oUfaX0d_BklZeaNNOiORD6RpgcYvNmIA&s",
+      "name": "Body Solid GLGS100 Corner Leverage Gym with Flat/Incline/Decline Bench",
+      "original_price": 1750.00,
+      "sale_price": 1350.00,
+      "discount": "23%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1lfv40_DliL8sZoZz4ZYQ1GG008hzdC1ng&s",
+      "name": "Body Solid GLGS100 Corner Leverage Gym",
+      "original_price": 1375.00,
+      "sale_price": 1060.00,
+      "discount": "23%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGRJGDAArcUFJppPZJRqXDnIyulQMpf_aVaQ&s",
+      "name": "Body Solid PHG1000X Powerline Home Gym",
+      "original_price": 795.00,
+      "sale_price": 625.00,
+      "discount": "22%"
+  },
+  {
+      "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+      "name": "Paradigm Fitness Glute-Ham Developer",
+      "original_price": 999.00,
+      "sale_price": 899.00,
+      "discount": "11%"
+  },
+  {
+      "image":"https://static.wixstatic.com/media/3a7d51_73a50cec23254111bbb53ad965420eb6~mv2.jpg/v1/fill/w_980,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a7d51_73a50cec23254111bbb53ad965420eb6~mv2.jpg",
+      "name": "Paradigm Fitness Squat Stands",
+      "original_price": 599.00,
+      "sale_price": 499.00,
+      "discount": "17%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFh4MWiOh7Mg6g9qyE2vtHrQvAs_cddkeRw&s",
+      "name": "Body Solid Commercial Utility Stool",
+      "original_price": 299.00,
+      "sale_price": 235.00,
+      "discount": "22%"
+  },
+  {
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7adjiqT5Ay9FbjC2hTQl5A11p0zF_bdS4hw&s",
+      "name": "Body Solid PowerLIFT Freeweight Leverage Gym Package",
+      "original_price": 2995.00,
+      "sale_price": 2495.00,
+      "discount": "17%"
+  },
+  {
+      "image":"https://mirafit.co.uk/wp/wp-content/uploads/2024/08/sled-push-with-Mirafit-Weight-Sled-1024x683.jpg",
+      "name": "Body-Solid Weight Sled",
+      "original_price": 424.00,
+      "sale_price": 295.00,
+      "discount": "31%"
+  },
+  {
+      "image":"https://5.imimg.com/data5/SELLER/Default/2022/3/ZD/TK/JT/30480780/body-solid-leverage-squat-calf-machine-gscl360-.jpg",
+      "name": "Body Solid Pro ClubLine Leverage Squat by Body-Solid",
+      "original_price": 1795.00,
+      "sale_price": 1495.00,
+      "discount": "17%"
+  },
+  {
+      "image":"https://5.imimg.com/data5/HM/DM/CK/SELLER-17837416/smith-machine-with-counter-balance.jpg",
+      "name": "Body Solid Pro ClubLine Counter Balanced Smith",
+      "original_price": 2895.00,
+      "sale_price": 2295.00,
+      "discount": "21%"
+  },
+  {
+      "image":"https://cdn.muscleandstrength.com/sites/default/files/incline-bench-press.jpg",
+      "name": "Body Solid Leverage Incline Bench Press",
+      "original_price": 1295.00,
+      "sale_price": 1070.00,
+      "discount": "18%"
+  },
+  {
+      "image":"https://energiefitness.in/cdn/shop/files/HB-014.png?v=1727764949",
+      "name": "Body Solid Semi-Recumbent Ab Bench",
+      "original_price": 625.00,
+      "sale_price": 495.00,
+      "discount": "21%"
+  }
+],
+
+"weights" :
+[
+        {
+          "name": "Body Solid Rubber Grip Olympic Plates - Each",
+          "original_price": 250.00,
+          "sale_price": 200.00,
+          "discount": "20%",
+          "image":"https://images.unsplash.com/photo-1517963628607-235ccdd5476c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFJ1YmJlciUyMEdyaXAlMjBPbHltcGljJTIwUGxhdGVzJTIwJTIwJTIwRWFjaCUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+          "name": "Body Solid Black Cast Iron Olympic Plates - Each",
+          "original_price": 250.00,
+          "sale_price": 150.00,
+          "discount": "40%",
+          "image":"https://5.imimg.com/data5/SELLER/Default/2024/3/397154927/IZ/SP/UL/24082498/cast-iron-olympic-gym-plate.jpg"
+        },
+        {
+          "name": "Body Solid Rubber Hex Dumbbells - Each",
+          "original_price": 150.00,
+          "sale_price": 120.00,
+          "discount": "20%",
+          "image":"https://m.media-amazon.com/images/I/51NjkMRTZiL.jpg"
+        },
+        {
+          "name": "Body Solid Neoprene Dipped Dumbbells - Pairs",
+          "original_price": 180.00,
+          "sale_price": 160.00,
+          "discount": "10%",
+          "image":"https://m.media-amazon.com/images/I/61fp2F43aQL._AC_UF894,1000_QL80_.jpg"
+        },
+      
+  {
+      "name": "Body Solid 300 lb Cast Iron Olympic Weight Set with Bar and Collars",
+      "original_price": 731.00,
+      "sale_price": 599.00,
+      "discount": "19%",
+      "image":"https://m.media-amazon.com/images/I/61iKK1n6F8L.jpg"
+  },
+  {
+      "name": "Body Solid Color Rubber Grip Olympic Plates - Each",
+      "original_price": 250.00,
+      "sale_price": 200.00,
+      "discount": "20%",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7EiFOxgEClsr6zJGI4RAFJTVkdvhAkrgJA&s"
+  },
+  {
+      "name": "Body Solid Standard Hex Dumbbells - Each",
+      "original_price": 200.00,
+      "sale_price": 179.00,
+      "discount": "10%",
+      "image":"https://store.cosco.in/cdn/shop/products/Untitleddesign-2021-07-21T104422.927_720x_b99b1469-551e-45d2-8c75-a7dec1e3b070.jpg?v=1731586794"
+  },
+  {
+      "name": "Body Solid Grey Cast Iron Grip Plates - Each",
+      "original_price": 749.00,
+      "sale_price": 685.00,
+      "discount": "9%",
+      "image":"https://m.media-amazon.com/images/I/61ZOLHSj0ML._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+      "name": "Body Solid 300 lb Rubber Grip Olympic Weight Set with Bar and Collars",
+      "original_price": 793.00,
+      "sale_price": 657.00,
+      "discount": "18%",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQayCq49lL3fkQQj8SXgn-od-fFtpoBZbyFhA&s"
+  },
+  {
+      "name": "Body Solid 500 lb Cast Iron Olympic Weight Set with Bar and Collars",
+      "original_price": 1033.00,
+      "sale_price": 839.00,
+      "discount": "19%",
+      "image":"https://thefitnessstore.com/cdn/shop/products/OSB500S-600px@2x.jpg?v=1675607051"
+  },
+  {
+      "name": "Body Solid Premium Cast Iron Kettlebells - lbs",
+      "original_price": 250.00,
+      "sale_price": 200.00,
+      "discount": "20%",
+      "image":"https://m.media-amazon.com/images/I/81ugbvQdoFL.jpg"
+  },
+  {
+      "name": "Body Solid 455 lb Cast Iron Olympic Plate Set",
+      "original_price": 829.00,
+      "sale_price": 759.00,
+      "discount": "9%",
+      "image":"https://fitnessfactoryoutlet.com/cdn/shop/products/9547_2048x.jpg?v=1707414720"
+  },
+  {
+      "name": "Body Solid Rubber Round Dumbbells - Each",
+      "original_price": 93.50,
+      "sale_price": 69.00,
+      "discount": "27%",
+      "image":"https://ateonlineshop.com/cdn/shop/products/Dumbbells_Round.png?v=1715804263"
+  },
+  {
+      "name": "Body Solid 260 lb Chicago Extreme Bumper Plate Set",
+      "original_price": 699.00,
+      "sale_price": 550.98,
+      "discount": "22%",
+      "image":"https://selectfitness.com/cdn/shop/files/body-solid-260lb-chicago-extreme-bumper-plate-set-with-barbell-32409706725508_400x400.png?v=1699068911"
+  },
+  {
+      "name": "Body Solid Black Solid Cast Iron Kettlebell - lbs",
+      "original_price": 50.00,
+      "sale_price": 45.00,
+      "discount": "10%",
+      "image":"https://thefitnessstore.com/cdn/shop/products/KB80@2x.jpg?v=1571712019"
+  },
+  {
+      "name": "Body Solid Olympic Curl Bar - Chrome",
+      "original_price": 93.50,
+      "sale_price": 69.00,
+      "discount": "27%",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYy8hyg9HaLFa-lLz0YIigBfQKQkyN77mRgg&s"
+  },
+  {
+      "name": "Body Solid Color Coded, Vinyl Dipped Kettlebells - lbs",
+      "original_price": 100.00,
+      "sale_price": 90.00,
+      "discount": "10%",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfDmDPFyqGZ7PlCm7tF7NI1no7LCrsmjpvxw&s"
+  },
+  {
+      "name": "Body Solid Olympic Dumbbell Handle - Chrome",
+      "original_price": 67.50,
+      "sale_price": 49.00,
+      "discount": "28%",
+      "image":"https://www.bullrockfitness.com/wp-content/uploads/2024/05/Loadable_Dumbbell_Bar_-1.jpg"
+  },
+  {
+      "name": "Body Solid 7' Olympic Bar",
+      "original_price": 149.00,
+      "sale_price": 129.00,
+      "discount": "14%",
+      "image":"https://5.imimg.com/data5/LR/FY/MY-15214479/gamma-fitness-olympic-bar.jpg"
+  },
+  {
+      "name": "Body Solid 400 lb Cast Iron Olympic Weight Set with Bar and Collars",
+      "original_price": 873.00,
+      "sale_price": 699.00,
+      "discount": "20%",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmbIUyHAvPegl9woEU6LoBeGgyhnekWLpPZQ&s"
+  },
+  {
+      "name": "Body Solid Olympic Spring Collars (Pair)",
+      "original_price": 13.00,
+      "sale_price": 10.95,
+      "discount": "16%",
+      "image":"https://m.media-amazon.com/images/I/71XxfYBIcbL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+      "name": "Body Solid 255 lb Cast Iron Olympic Plate Set",
+      "original_price": 653.00,
+      "sale_price": 597.00,
+      "discount": "9%",
+      "image":"https://homefitnesscorp.com/cdn/shop/products/255lb-cast-iron-olympic-plate-set-weight-training-plate-set-the-home-fitness-corp-2_2048x.jpg?v=1656187493"
+  },
+  {
+      "name": "Body Solid 300 lb Color Rubber Grip Olympic Weight Set with Bar and Collars",
+      "original_price": 749.00,
+      "sale_price": 685.00,
+      "discount": "9%",
+      "image":"https://www.americanfitness.net/images/products/detail/OSR.jpg"
+  }
+]
+
+}
