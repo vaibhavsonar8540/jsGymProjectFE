@@ -1,20 +1,20 @@
 
 function fetchdata() {
-    fetch('http://localhost:3000/products')
+    fetch('https://jsgymproject-be.onrender.com/products')
         .then((res) => res.json())
         .then((data) => {
             show(data);
         })
         .catch((err) => console.log("Error fetching data:", err));
 
-        fetch('http://localhost:3000/products2')
+        fetch('https://jsgymproject-be.onrender.com/products2')
         .then((res) => res.json())
         .then((data) => {
             show2(data);
         })
         .catch((err) => console.log("Error fetching data:", err));
 
-        fetch('http://localhost:3000/cardio')
+        fetch('https://jsgymproject-be.onrender.com/cardio')
         .then((res)=> res.json())
         .then((data)=>
         {
@@ -22,7 +22,7 @@ function fetchdata() {
         })
         .catch((err) => console.log("Error fetching data:", err));
 
-        fetch('http://localhost:3000/gym')
+        fetch('https://jsgymproject-be.onrender.com/gym')
         .then((res)=> res.json())
         .then((data)=>
         {
@@ -30,7 +30,7 @@ function fetchdata() {
         })
         .catch((err) => console.log("Error fetching data:", err));
         
-        fetch('http://localhost:3000/bicycle')
+        fetch('https://jsgymproject-be.onrender.com/bicycle')
         .then((res)=> res.json())
         .then((data)=>
         {
@@ -39,7 +39,7 @@ function fetchdata() {
         .catch((err) => console.log("Error fetching data:", err));
 
 
-        fetch('http://localhost:3000/plate')
+        fetch('https://jsgymproject-be.onrender.com/plate')
         .then((res)=> res.json())
         .then((data)=>
         {
@@ -48,7 +48,7 @@ function fetchdata() {
         .catch((err) => console.log("Error fetching data:", err));
 
 
-        fetch('http://localhost:3000/weights')
+        fetch('https://jsgymproject-be.onrender.com/weights')
         .then((res)=> res.json())
         .then((data)=>
         {
